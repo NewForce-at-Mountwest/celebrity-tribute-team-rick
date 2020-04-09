@@ -2,3 +2,26 @@
     opacity: 60%;
 }
 
+.splashRick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80em;
+    width: 80em;
+    /* opacity: 60%; */
+    
+}
+
+.splashContainer{
+    display: flex;
+    justify-content: center;
+    /* width: 30em; */
+    align-items: center;
+    height: 100vh
+}
+/* d-flex justify-content-center align-content-center */
+
+body{
+    background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
+    background-size: cover;
+}
