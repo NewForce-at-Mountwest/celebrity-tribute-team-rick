@@ -17,11 +17,34 @@
     justify-content: center;
     /* width: 30em; */
     align-items: center;
-    height: 100vh
+    height: 30em;
+    width: 100vw;
+    /* padding: 8em; */
 }
 /* d-flex justify-content-center align-content-center */
 
-body{
+.awBody{
+    display: flex;
     background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
     background-size: cover;
+    flow-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 3em;
+    
+    
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+
+}
+
+.awSection{
+    display: flex;
+    margin-top: 4rem;
 }
