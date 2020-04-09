@@ -1,6 +1,8 @@
 .display-4 {
     text-decoration: overline underline;
     font-style: oblique;
+    color: white;
+    background-color: purple;
 
 }
 
@@ -10,12 +12,13 @@ body{
     
 }
 
-.jumbotron{
+.cardextra {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     border-radius: 0px;
     padding: 3em;
+    margin: 2em;
+    max-width: 50rem;
 
 }
 
@@ -36,5 +39,19 @@ body{
 }
 
 .greatLines {
-    color: purple;
+    color: white;
 }
+
+.white {
+    color: white;
+}
+
+/* .mortyForm {
+   
+} */
+.center {
+    margin: auto;
+    border: 3px dashed green;
+    width: 80%;
+  }
+
