@@ -1,0 +1,40 @@
+.display-4 {
+    text-decoration: overline underline;
+    font-style: oblique;
+
+}
+
+body{
+    background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
+    background: size 10%;
+    
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0px;
+    padding: 3em;
+
+}
+
+.EmailCSS{
+    color: white;
+    font-size: 1.5em;
+}
+
+.PasswordCSS{
+    color: white;
+    font-size: 1.5em;
+
+}
+
+.form-check-label{
+    color: white;
+    font-style: oblique;
+}
+
+.greatLines {
+    color: purple;
+}
