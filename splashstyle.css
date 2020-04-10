@@ -1,0 +1,54 @@
+
+
+.splashRick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80em;
+    width: 80em;
+    /* opacity: 60%; */
+    
+}
+
+.splashContainer{
+    display: flex;
+    justify-content: center;
+    /* width: 30em; */
+    align-items: center;
+    height: 30em;
+    width: 100vw;
+    /* padding: 8em; */
+}
+/* d-flex justify-content-center align-content-center */
+
+.awBody{
+    display: flex;
+    background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
+    background-size: cover;
+    flow-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    margin-top: em;
+    
+    
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+
+}
+
+.awSection{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.card-body{
+    color: #f30b0b;
+}
+
