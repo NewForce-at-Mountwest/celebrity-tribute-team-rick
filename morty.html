@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to Morty Page css -->
+  <link rel="stylesheet" href="MortyPage.css">
+  <!-- Link to Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Morty Applications</title>
+</head>
+
+<body>
+  <div class="center">
+    <div class="borderAttempt">
+    <!-- This is the Morty card -->
+    <div class="card cardextra bg-dark">
+      <!-- ADD nav bar here -->
+      <h1 class="display-4">Hello, Future Morty!</h1>
+      <p class="lead white">Wondering what being my Morty would be like? Check out some of these great lines!</p>
+      <!-- This is the paragraph in the card -->
+      <ul class="greatLines">
+        <li> That, out there. That's my grave. On one of our adventures Rick and I basically destroyed the whole world.
+          So we bailed on that reality and we came to this one. Because in this one the world wasn't destroyed. And in
+          this one, we were dead. So we came here a-a-and we buried ourselves and we took their place. </li>
+
+        <li>I'm Mr Meeseeks! Look at me!</li>
+
+        <li>Awww, it's you guys! I know the two of you are very different from each other in a lot of ways, but you have
+          to understand that as far as Grandpa's concerned, you're both pieces of shit! Yeah. I can prove it
+          mathematically. Actually, l-l-let me grab my whiteboard. This has been a long time coming, anyways. </li>
+      </ul>
+      <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Dont worry about this button.</a> -->
+      <img src="https://fontmeme.com/permalink/200409/a6debed7d40fb4739079d645ffaf2d6c.png">
+
+<!-- Morty Application: Email and Password -->
+      <form class="mortyForm">
+        <!-- Morty app email input -->
+        <div class="form-group">
+          <label class="EmailCSS" for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control col-9" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Put your dumb email address here, Morty!">
+          <small id="emailHelp" class="form-text white">We'll never share your email with anyone else...unless they pay
+            us</small>
+        </div>
+        <!-- Morty app password input -->
+        <div class="form-group">
+          <label class="PasswordCSS" for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control col-9" id="exampleInputPassword1"
+            placeholder="Put your dumb password here, Morty!">
+        </div>
+        <!-- Pickle Rick checkbox and submit button -->
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">I'm Pickle Rick!!</label>
+        </div>
+        <button type="submit" class="btn btn-primary">WUBBA LUBBA DUB DUB!</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
