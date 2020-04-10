@@ -16,9 +16,11 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 0px;
-    padding: 3em;
+    padding: 1em;
     margin: 2em;
-    max-width: 50rem;
+    width: 50em;
+    align-content: center;
+
 
 }
 
@@ -51,7 +53,11 @@ body{
 } */
 .center {
     margin: auto;
-    border: 3px dashed green;
     width: 80%;
+    display: flex;
+    justify-content: center;
   }
 
+.borderAttempt{
+    border: 3px dashed green;
+}
