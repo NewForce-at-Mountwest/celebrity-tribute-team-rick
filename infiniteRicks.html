@@ -5,25 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="navstyle.css">
     <link rel="stylesheet" href="infiniteRicks.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
+ <!-- nav bar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <!-- Home/Splash button -->
+    <a class="navbar-brand" href="index.html">Rick Sanchez</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <!-- Origin button -->
+        <a class="nav-item nav-link" href="origin.html">Origin Story <span class="sr-only">(current)</span></a>
+        <!-- Infinite Ricks button -->
+        <a class="nav-item nav-link" href="infinitericks.html">Infinite Ricks</a>
+        <!-- Morty button -->
+        <a class="nav-item nav-link" href="morty.html">Morty Application</a>
+      </div>
+    </div>
+  </nav>
+
+
     <!-- mainheading -->
 
     <h1 class="main">Infinite Ricks</h1>
-    <P class="linkText">Go Back?</P>
+    <!-- <P class="linkText">Go Back?</P> -->
 
     <!-- portalpic -->
 
-    <div class="portalLink">
-        <img src="https://i.pinimg.com/originals/37/92/6b/37926bce6c4afda728d5011c3ee9ea0a.jpg" alt="">
-    </div>
+        <!-- <div class="linkText">
+        <P >Go Back?</P>
+    </div> -->
     <!-- firstrick and pic -->
-
+<div class="pictures">
     <h1 class="one">Doofus Rick</h1>
 <div class="doofusRick">
-    <img src="https://vignette.wikia.nocookie.net/rickandmorty/images/d/dd/S1e10_doofy.png/revision/latest?cb=20160911021823" alt="">
-</div>
+    <img class="doofusPic" src="https://vignette.wikia.nocookie.net/rickandmorty/images/d/dd/S1e10_doofy.png/revision/latest?cb=20160911021823" alt="">
+    </div>
+
 
 <!-- secondrick and pic  -->
 
@@ -38,6 +62,7 @@
 <h1 class="four">Citadel of Rick</h1>
 <div class="CitadelOfRick">
     <img src="https://thepoliticalscienceclub.com/wp-content/uploads/2017/04/council-of-ricks-rick-and-morty-the-political-science-club-tpsc-rick-is-selfish-anarchist-1-300x168.jpg" alt="">
+</div>
 </div>
     
 </body>

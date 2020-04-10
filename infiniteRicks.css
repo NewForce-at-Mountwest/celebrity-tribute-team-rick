@@ -6,17 +6,23 @@ body {
 .main{
 font-size: 100px; 
 color: white;
-align-items: center;
+text-align: center;
 }
 
 .linkText{
   font-size: 50px;
   color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .one{
 font-size: 100px;
 color: white;
+display: flex;
+
+
 }
 
 .two{
@@ -35,21 +41,44 @@ color: white;
 }
 
 .portalLink{
-  
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .doofusRick{
-
+  display: flex;
+  justify-content: flex-start;
+  
+ 
 }
 
 .managerRick{
-
+  display: flex;
+  justify-content: flex-start;
 }
 
 .mortyRick{
-
+  display: flex;
+  justify-content: flex-start;
 }
 
 .CitadelOfRick{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pictures{
+  display: flex;
+  justify-content: flex-start;
+  height: 15em;
+  width: 15em;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.doofusPic{
+  width: 25em;
+  height: 15em; 
 
 }
