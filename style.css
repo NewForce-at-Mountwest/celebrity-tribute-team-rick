@@ -1,0 +1,45 @@
+
+/* background picture for the whole page */
+body{
+    background-image: url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg");
+    background-size: 100%;
+
+}
+
+.rickPic{
+    width: 20%;
+    
+    
+    
+    
+}
+
+.mortyPic{
+    width: 25%;
+    
+
+}
+
+
+.card-body{
+    /* background-image:url("https://www.azonano.com/images/Article_Images/ImageForArticle_4983(1).jpg"); */
+    width: 30%;
+    text-align: center;
+    border: solid white;
+    
+}
+/* this is for both paragraphs */
+p{
+    color: white;
+    font-size: 1.3em;
+}
+/* this is for the header (Rick Sanchez) */
+h5{
+    color: white;
+    
+}
+/* font size for the header */
+.dscard-title{
+    font-size: 2em;
+}
+
